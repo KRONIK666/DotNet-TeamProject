@@ -4,6 +4,15 @@ C:\Users\Pablo\Desktop\ConsoleApplication1\ConsoleApplication1\bin\Debug\Console
 C:\Users\Pablo\Desktop\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
 C:\Users\Pablo\Desktop\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 C:\Users\Pablo\Desktop\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+<<<<<<< HEAD
 C:\Users\Megg\Downloads\dok\Progect\TeamProject\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
 C:\Users\Megg\Downloads\dok\Progect\TeamProject\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 C:\Users\Megg\Downloads\dok\Progect\TeamProject\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+=======
+D:\SOFT INTELLECT\TeamProject\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\SOFT INTELLECT\TeamProject\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\SOFT INTELLECT\TeamProject\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\SOFT INTELLECT\TeamProject\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\SOFT INTELLECT\TeamProject\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\SOFT INTELLECT\TeamProject\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+>>>>>>> db9d99b9af0296793b044f04bc2894b13bc1e030
