@@ -12,7 +12,12 @@ namespace ConsoleApplication1
         {
             Console.WriteLine("Мачкааааййй Лавинаааа!");
             Console.WriteLine("Победа!");
+
             int a = 5;
+
+
+            Console.WriteLine("gfgfgf");
+
         }
     }
 }
