@@ -4,3 +4,6 @@ C:\Users\Pablo\Desktop\ConsoleApplication1\ConsoleApplication1\bin\Debug\Console
 C:\Users\Pablo\Desktop\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
 C:\Users\Pablo\Desktop\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 C:\Users\Pablo\Desktop\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Megg\Downloads\dok\Progect\TeamProject\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Megg\Downloads\dok\Progect\TeamProject\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Megg\Downloads\dok\Progect\TeamProject\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
