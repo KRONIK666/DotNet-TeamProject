@@ -10,6 +10,11 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("Мачкааааййй!");
+            Console.WriteLine("No 1sdsdsdsdsdsdsdsdsds");
+            Console.WriteLine();
+
             Console.WriteLine("Мачкааааййй Лавинаааа!");
             Console.WriteLine("Победа!");
 
@@ -17,6 +22,7 @@ namespace ConsoleApplication1
 
 
             Console.WriteLine("gfgfgf");
+
 
         }
     }
