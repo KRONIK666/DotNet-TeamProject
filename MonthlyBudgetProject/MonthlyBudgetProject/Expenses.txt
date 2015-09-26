@@ -1,2 +1,2 @@
-Date 18.09.2015 г. 00:00:00 ч.|Expense:  5|Price 3
-Date 07.09.2015 г. 00:00:00 ч.|Expense:  7|Price 7
+Date 04.09.2015 г. 00:00:00 ч.|Expense:  6|Price 4
+Date 11.10.2015 г. 00:00:00 ч.|Expense:  8|Price 6

@@ -12,43 +12,22 @@ namespace MonthlyBudgetProject
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //List<Database> expenses = Database.GetExpenses();
-
-            //expenses.DataSource = expenses;
-            //expenses.DataBind();
+            
         }
 
         protected void searchWeek_Click(object sender, EventArgs e)
         {
-            string locale = "";
-            DateTimeStyles styles = DateTimeStyles.AllowInnerWhite | DateTimeStyles.AllowLeadingWhite | DateTimeStyles.AllowTrailingWhite;
-            DateTime inputDate;
-            DateTime localDate = DateTime.Now;
-            bool result = false;
-
             Database.GetExpenses();
         }
 
         protected void searchMonth_Click(object sender, EventArgs e)
         {
-            string locale = "";
-            DateTimeStyles styles = DateTimeStyles.AllowInnerWhite | DateTimeStyles.AllowLeadingWhite | DateTimeStyles.AllowTrailingWhite;
-            DateTime inputDate;
-            DateTime localDate = DateTime.Now;
-            DateTimeOffset localDateOffset = DateTimeOffset.Now;
-            int integerOffset;
-            bool result = false;
+            
         }
 
         protected void searchYear_Click(object sender, EventArgs e)
         {
-            string locale = "";
-            DateTimeStyles styles = DateTimeStyles.AllowInnerWhite | DateTimeStyles.AllowLeadingWhite | DateTimeStyles.AllowTrailingWhite;
-            DateTime inputDate;
-            DateTime localDate = DateTime.Now;
-            DateTimeOffset localDateOffset = DateTimeOffset.Now;
-            int integerOffset;
-            bool result = false;
+            
         }
     }
 }
