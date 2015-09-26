@@ -7,7 +7,7 @@ using System.Web;
 
 namespace MonthlyBudgetProject
 {
-    public class Database
+    public class Database : Budget
     {
         public static List<Database> GetExpenses()
         {
@@ -18,7 +18,7 @@ namespace MonthlyBudgetProject
                 do
                 {
                     string[] archive = line.Split('|');
-                    archive.Add(new Database()
+                    expenses.Add(new Database()
                     {
                         Date = archive[0],
                         Expenses = archive[1],
@@ -27,7 +27,7 @@ namespace MonthlyBudgetProject
                     line = reader.ReadLine();
                 } while (line != null);
             }
-            return expense;
+            return expenses;
         }
     }
 }

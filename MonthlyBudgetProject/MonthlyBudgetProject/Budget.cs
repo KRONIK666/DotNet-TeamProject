@@ -7,8 +7,8 @@ namespace MonthlyBudgetProject
 {
     public class Budget
     {
-        private DateTime date;
-        public DateTime Date
+        private string date;
+        public string Date
         {
             get { return date; }
             set { date = value; }

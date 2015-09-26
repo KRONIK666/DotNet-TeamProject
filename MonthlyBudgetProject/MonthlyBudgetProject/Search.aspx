@@ -16,15 +16,15 @@
 
         <div style="float: left;">
             <asp:Label Text="Last Week: " runat="server" Font-Bold="True" />
-            <asp:Button Text="Search" runat="server" ID="searchWeek" />
+            <asp:Button Text="Search" runat="server" ID="searchWeek" OnClick="searchWeek_Click" />
             <br />
             <br />
             <asp:Label Text="Last Month: " runat="server" Font-Bold="True" />
-            <asp:Button Text="Search" runat="server" ID="searchMonth" />
+            <asp:Button Text="Search" runat="server" ID="searchMonth" OnClick="searchMonth_Click" />
             <br />
             <br />
             <asp:Label Text="Last Year: " runat="server" Font-Bold="True" />
-            <asp:Button Text="Search" runat="server" ID="searchYear" />
+            <asp:Button Text="Search" runat="server" ID="searchYear" OnClick="searchYear_Click" />
             <br />
             <br />
         </div>

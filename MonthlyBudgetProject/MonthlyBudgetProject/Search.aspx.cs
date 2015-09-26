@@ -12,10 +12,10 @@ namespace MonthlyBudgetProject
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            List<Database> expenses = Helpers.GetBooks();
+            //List<Database> expenses = Database.GetExpenses();
 
-            booksRepeater.DataSource = expenses;
-            booksRepeater.DataBind();
+            //expenses.DataSource = expenses;
+            //expenses.DataBind();
         }
 
         protected void searchWeek_Click(object sender, EventArgs e)
@@ -24,9 +24,9 @@ namespace MonthlyBudgetProject
             DateTimeStyles styles = DateTimeStyles.AllowInnerWhite | DateTimeStyles.AllowLeadingWhite | DateTimeStyles.AllowTrailingWhite;
             DateTime inputDate;
             DateTime localDate = DateTime.Now;
-            DateTimeOffset localDateOffset = DateTimeOffset.Now;
-            int integerOffset;
             bool result = false;
+
+            Database.GetExpenses();
         }
 
         protected void searchMonth_Click(object sender, EventArgs e)

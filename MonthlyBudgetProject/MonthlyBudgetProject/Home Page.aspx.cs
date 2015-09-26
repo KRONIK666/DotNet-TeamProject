@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Web;
@@ -25,11 +26,11 @@ namespace MonthlyBudgetProject
 
         protected void submitBtn_Click(object sender, EventArgs e)
         {
-            using (StreamWriter writer = new StreamWriter(Server.MapPath("FilePath"), true))
+            using (StreamWriter writer = new StreamWriter(ConfigurationManager.AppSettings["FilePath"], true))
             {
-                writer.WriteLine(Date.Text + " " + calendar.SelectedDate);
-                writer.WriteLine(Expense.Text + " " + chooseExpense.SelectedIndex);
-                writer.WriteLine(Price.Text + " " + priceTxtBox.TextMode);
+                writer.Write(Date.Text + " " + calendar.SelectedDate + "|");
+                writer.Write(Expense.Text + " " + chooseExpense.SelectedIndex + "|");
+                writer.WriteLine(Price.Text + " " + priceTxtBox.Text);
             }
         }
 
