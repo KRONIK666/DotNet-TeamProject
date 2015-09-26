@@ -1,0 +1,6 @@
+D:\SOFT INTELLECT\TeamProject\MonthlyBudgetProject\MonthlyBudgetProject\bin\MonthlyBudgetProject.dll.config
+D:\SOFT INTELLECT\TeamProject\MonthlyBudgetProject\MonthlyBudgetProject\bin\MonthlyBudgetProject.dll
+D:\SOFT INTELLECT\TeamProject\MonthlyBudgetProject\MonthlyBudgetProject\bin\MonthlyBudgetProject.pdb
+D:\SOFT INTELLECT\TeamProject\MonthlyBudgetProject\MonthlyBudgetProject\obj\Debug\MonthlyBudgetProject.csprojResolveAssemblyReference.cache
+D:\SOFT INTELLECT\TeamProject\MonthlyBudgetProject\MonthlyBudgetProject\obj\Debug\MonthlyBudgetProject.dll
+D:\SOFT INTELLECT\TeamProject\MonthlyBudgetProject\MonthlyBudgetProject\obj\Debug\MonthlyBudgetProject.pdb
