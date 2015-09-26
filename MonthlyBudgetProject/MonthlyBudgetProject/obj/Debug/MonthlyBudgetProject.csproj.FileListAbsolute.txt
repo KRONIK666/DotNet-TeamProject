@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 D:\SOFT INTELLECT\TeamProject\MonthlyBudgetProject\MonthlyBudgetProject\bin\MonthlyBudgetProject.dll.config
 D:\SOFT INTELLECT\TeamProject\MonthlyBudgetProject\MonthlyBudgetProject\bin\MonthlyBudgetProject.dll
 D:\SOFT INTELLECT\TeamProject\MonthlyBudgetProject\MonthlyBudgetProject\bin\MonthlyBudgetProject.pdb
 D:\SOFT INTELLECT\TeamProject\MonthlyBudgetProject\MonthlyBudgetProject\obj\Debug\MonthlyBudgetProject.csprojResolveAssemblyReference.cache
 D:\SOFT INTELLECT\TeamProject\MonthlyBudgetProject\MonthlyBudgetProject\obj\Debug\MonthlyBudgetProject.dll
 D:\SOFT INTELLECT\TeamProject\MonthlyBudgetProject\MonthlyBudgetProject\obj\Debug\MonthlyBudgetProject.pdb
+=======
+C:\Users\Pablo\Desktop\TeamProject\MonthlyBudgetProject\MonthlyBudgetProject\bin\MonthlyBudgetProject.dll.config
+C:\Users\Pablo\Desktop\TeamProject\MonthlyBudgetProject\MonthlyBudgetProject\bin\MonthlyBudgetProject.dll
+C:\Users\Pablo\Desktop\TeamProject\MonthlyBudgetProject\MonthlyBudgetProject\bin\MonthlyBudgetProject.pdb
+C:\Users\Pablo\Desktop\TeamProject\MonthlyBudgetProject\MonthlyBudgetProject\obj\Debug\MonthlyBudgetProject.csprojResolveAssemblyReference.cache
+C:\Users\Pablo\Desktop\TeamProject\MonthlyBudgetProject\MonthlyBudgetProject\obj\Debug\MonthlyBudgetProject.dll
+C:\Users\Pablo\Desktop\TeamProject\MonthlyBudgetProject\MonthlyBudgetProject\obj\Debug\MonthlyBudgetProject.pdb
+>>>>>>> 254d284020536d4b44d2a54aeef6bcfeb0ae2099
