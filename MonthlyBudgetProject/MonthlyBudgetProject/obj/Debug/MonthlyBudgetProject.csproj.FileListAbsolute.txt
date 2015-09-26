@@ -1,0 +1,6 @@
+C:\Users\Pablo\Desktop\TeamProject\MonthlyBudgetProject\MonthlyBudgetProject\bin\MonthlyBudgetProject.dll.config
+C:\Users\Pablo\Desktop\TeamProject\MonthlyBudgetProject\MonthlyBudgetProject\bin\MonthlyBudgetProject.dll
+C:\Users\Pablo\Desktop\TeamProject\MonthlyBudgetProject\MonthlyBudgetProject\bin\MonthlyBudgetProject.pdb
+C:\Users\Pablo\Desktop\TeamProject\MonthlyBudgetProject\MonthlyBudgetProject\obj\Debug\MonthlyBudgetProject.csprojResolveAssemblyReference.cache
+C:\Users\Pablo\Desktop\TeamProject\MonthlyBudgetProject\MonthlyBudgetProject\obj\Debug\MonthlyBudgetProject.dll
+C:\Users\Pablo\Desktop\TeamProject\MonthlyBudgetProject\MonthlyBudgetProject\obj\Debug\MonthlyBudgetProject.pdb
