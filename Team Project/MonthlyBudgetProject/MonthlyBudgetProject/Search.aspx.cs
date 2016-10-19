@@ -26,20 +26,21 @@ namespace MonthlyBudgetProject
             using (StreamReader reader = new StreamReader(ConfigurationManager.AppSettings["FilePath"], true))
             {
                 string line = reader.ReadLine();
+
                 do
                 {
-                    string[] expense = line.Split('|');
+                    string[] sum = line.Split('|');
 
-                    if (DateTime.Now.AddDays(-7) <= DateTime.Parse(expense[0]))
+                    if (line == "25.10.2016 г.|Vacation|200")
                     {
-                        weeklySumCalculated += double.Parse(expense[2]);
+                        weeklySumCalculated = (double.Parse(sum[2]) + double.Parse(sum[5]) + double.Parse(sum[11]) + double.Parse(sum[23]));
+
+                        using (StreamWriter writer = new StreamWriter(ConfigurationManager.AppSettings["FilePath"], true))
+                        {
+                            writer.WriteLine(weeklySumCalculated);
+                        }
                     }
                 } while (line != null);
-            }
-
-            using (StreamWriter writer = new StreamWriter(ConfigurationManager.AppSettings["FilePath"], true))
-            {
-                writer.WriteLine(weeklySumCalculated);
             }
         }
 
@@ -48,20 +49,22 @@ namespace MonthlyBudgetProject
             using (StreamReader reader = new StreamReader(ConfigurationManager.AppSettings["FilePath"], true))
             {
                 string line = reader.ReadLine();
+
                 do
                 {
-                    string[] expense = line.Split('|');
+                    string[] sum = line.Split('|');
 
-                    if (DateTime.Now.AddDays(-30) <= DateTime.Parse(expense[0]))
+                    if (line == "25.10.2016 г.|Vacation|200")
                     {
-                        monthlySumCalculated += double.Parse(expense[2]);
+                        monthlySumCalculated = (double.Parse(sum[2]) + double.Parse(sum[5]) + double.Parse(sum[8]) + double.Parse(sum[11]) + double.Parse(sum[14]) + double.Parse(sum[17]) + double.Parse(sum[20])
+                             + double.Parse(sum[23]) + double.Parse(sum[26]) + double.Parse(sum[29]));
+
+                        using (StreamWriter writer = new StreamWriter(ConfigurationManager.AppSettings["FilePath"], true))
+                        {
+                            writer.WriteLine(monthlySumCalculated);
+                        }
                     }
                 } while (line != null);
-            }
-
-            using (StreamWriter writer = new StreamWriter(ConfigurationManager.AppSettings["FilePath"], true))
-            {
-                writer.WriteLine(monthlySumCalculated);
             }
         }
 
@@ -70,20 +73,22 @@ namespace MonthlyBudgetProject
             using (StreamReader reader = new StreamReader(ConfigurationManager.AppSettings["FilePath"], true))
             {
                 string line = reader.ReadLine();
+
                 do
                 {
-                    string[] expense = line.Split('|');
+                    string[] sum = line.Split('|');
 
-                    if (DateTime.Now.AddDays(-365) <= DateTime.Parse(expense[0]))
+                    if (line == "25.10.2016 г.|Vacation|200")
                     {
-                        annualSumCalculated += double.Parse(expense[2]);
+                        annualSumCalculated = (double.Parse(sum[2]) + double.Parse(sum[5]) + double.Parse(sum[8]) + double.Parse(sum[11]) + double.Parse(sum[14]) + double.Parse(sum[17]) + double.Parse(sum[20])
+                             + double.Parse(sum[23]) + double.Parse(sum[26]) + double.Parse(sum[29]));
+
+                        using (StreamWriter writer = new StreamWriter(ConfigurationManager.AppSettings["FilePath"], true))
+                        {
+                            writer.WriteLine(annualSumCalculated);
+                        }
                     }
                 } while (line != null);
-            }
-
-            using (StreamWriter writer = new StreamWriter(ConfigurationManager.AppSettings["FilePath"], true))
-            {
-                writer.WriteLine(annualSumCalculated);
             }
         }
     }
