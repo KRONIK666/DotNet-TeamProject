@@ -1,7 +1,7 @@
 # C# .Net Team Project at Software Academy
 
-Team: "Ivaylo, Pavel & Maggy"
-Project: "Monthly Budget Management System"
+Team: "Ivaylo, Pavel & Maggy" <br />
+Project: "Monthly Budget Management System" <br />
 Technology: ASP .Net WebForms Application
 
 Description: Program operates with the monthly budget of a user. <br />
